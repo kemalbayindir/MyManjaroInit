@@ -165,7 +165,6 @@ echo "please add these lines to your rc file
 
 figlet \"be cool, work hard, keep calm\"
 alias editrc='sudo nano ~/.zshrc'
-alias docker='sudo docker'
 alias loadrc='source ~/.zshrc && clear & clear'
 alias powerrpt='sudo powertop --html'
 alias open='nautilus'
