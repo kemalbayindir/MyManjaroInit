@@ -17,6 +17,16 @@ sudo pacman-mirrors -g
 sudo pacman -Syyu
 ```
 
+# ZSH
+```zsh
+sudo pacman -Syu zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+> Please use this link for detailed configurations : https://gist.github.com/yovko/becf16eecd3a1f69a4e320a95689249e
+
+
 # Neofetch and Cpufetch 
 ```zsh
 sudo pacman -S neofetch
