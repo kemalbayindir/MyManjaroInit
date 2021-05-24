@@ -214,6 +214,23 @@ sudo pamac install keepass
 sudo snap install sftpclient
 ```
 
+# Gestures
+```zsh
+sudo gpasswd -a $USER input
+
+Add fallowing gesture definitions via Gesture manager app
+
+#3 finger swipe down: xdotool key Super
+#3 finger swipe up: xdotool key Super+a
+#3 finger swipe right: xdotool key Alt+Left
+#3 finger swipe left: xdotool key Alt+Right
+#4 finger swipe up: xdotool key Ctrl+Alt+Down
+#4 finger swipe down: xdotool key Ctrl+Alt+Up
+#3 finger pinch in: xdotool key Super+h
+#3 finger pinch out: xdotool key Alt+F10
+
+```
+
 # Aliases & RC file content
 
 figlet \"be cool, work hard, keep calm\"
