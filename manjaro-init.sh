@@ -13,6 +13,13 @@ pacman -S yay
 sudo pacman-mirrors -g
 sudo pacman -Syyu
 
+# TOOL : ZSH
+sudo pacman -Syu zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# https://gist.github.com/yovko/becf16eecd3a1f69a4e320a95689249e
 
 
 # TOOL : Install neofetch and cpu fetch 
