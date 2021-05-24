@@ -160,6 +160,19 @@ sudo snap install gnome-system-monitor
 # TOOL : SFTP
 sudo snap install sftpclient
 
+# TOOL : GESTURES
+sudo gpasswd -a $USER input
+
+echo "Add fallowing gesture definitions via Gesture manager app"
+
+echo "#3 finger swipe down: xdotool key Super"
+echo "#3 finger swipe up: xdotool key Super+a"
+echo "#3 finger swipe right: xdotool key Alt+Left"
+echo "#3 finger swipe left: xdotool key Alt+Right"
+echo "#4 finger swipe up: xdotool key Ctrl+Alt+Down"
+echo "#4 finger swipe down: xdotool key Ctrl+Alt+Up"
+echo "#3 finger pinch in: xdotool key Super+h"
+echo "#3 finger pinch out: xdotool key Alt+F10"
 
 echo "please add these lines to your rc file
 
